@@ -175,7 +175,7 @@ a[href]:hover, a[href]:focus {
 	height: 100%;
 }
 .playlist-wrap {
-	background: url(background-llanero.png);
+	background-color: #432D1F; /* Lista reprodcutor */
 }
 .playlist-wrap li {
 	margin: 0 0 0 3em;
