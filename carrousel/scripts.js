@@ -113,19 +113,29 @@
                 slidesPerView: 2,
                 spaceBetween: 10
             },
+            // when window is <= 520px
+            520: {
+                slidesPerView: 2,
+                spaceBetween: 10
+            },
+            // when window is <= 573px
+            573: {
+                slidesPerView: 3,
+                spaceBetween: 10
+            },
             // when window is <= 768px
             768: {
-                slidesPerView: 3,
+                slidesPerView: 4,
                 spaceBetween: 20
             },
             // when window is <= 992px
             992: {
-                slidesPerView: 4,
+                slidesPerView: 5,
                 spaceBetween: 30
             },
             // when window is <= 1200px
             1200: {
-                slidesPerView: 5,
+                slidesPerView: 6,
                 spaceBetween: 30
             },
         }
