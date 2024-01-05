@@ -1,0 +1,24 @@
+@import "//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.css";
+@import "includes/mixins";
+@import "includes/classes";
+
+//General CSS 
+body {
+  margin: 10px 0 0 0;
+  
+  .container {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 1em;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    .player-container {
+      margin: 0 auto;
+      text-align: left;
+
+      @import "parts/player";      
+      @import "parts/playList";
+      
+    }//end .player-container
+  }//end .container
+}

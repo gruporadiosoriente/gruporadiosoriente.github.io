@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7">
+<![endif]-->
+<!--[if IE 7]>
+    <html lang="en" class="no-js lt-ie9 lt-ie8">
+<![endif]-->
+<!--[if IE 8]>
+    <html lang="en" class="no-js lt-ie9">
+<![endif]-->
+<html lang="en" class="no-js"> 
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+        <title>Cantaclaro</title>
+        <meta name="description" content=""/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="stylesheet" href="css/styles.css"/>
+        <script src="js/libs/modernizr/modernizr.js"></script>
+    </head>
+    <body style="width:100%; height:100vh; background: url(img/background-cantaclaro.webp); background-repeat: no-repeat; background-size: cover; position: fixed; background-color: #9c8158">
+    	<div class="container">
+            <h1 class="page-title">Cantaclaro 107.1 FM</h1>
+            <img src="">
+                <div class="player-container">
+                    <audio id="audio" preload="none" tabindex="0">
+            			<source src="music-cantaclaro/ALBERTO CASTILLO - LO QUE YO SIENTO POR TI.mp3" data-track-number="1" />
+            			<source src="music-cantaclaro/ALEJANDRO RONDON - IRONIA.mp3" data-track-number="2" />
+            			<source src="music-cantaclaro/ALI CABELLO - ME ENAMORE.mp3" data-track-number="3" />
+            			<source src="music-cantaclaro/CARLOS GUEVARA - OJITOS NEGROS.mp3" data-track-number="4" />
+            			<source src="music-cantaclaro/CRISTOBAL JIMENEZ - ALCARABAN COMPANERO.mp3" data-track-number="5" />    
+            			<source src="music-cantaclaro/ELIO ZAMORA EL DELTANITO - TE DEJARE DE QUERER.mp3" data-track-number="6" />
+            			<source src="music-cantaclaro/JORGE GUERRERO - TARDES GRISES DE JUNIO.mp3" data-track-number="7" />
+            			<source src="music-cantaclaro/LILIBETH FIGUERA - LA LLANURA Y SUS ENCANTOS.mp3" data-track-number="8" />
+                        <source src="music-cantaclaro/MIGUELITO DIAZ  - LA TIERRA DE DONDE VENGO.mp3" data-track-number="9" />
+                        <source src="music-cantaclaro/MILENA BENITES - SI ME CUMPLE NOS CASAMOS.mp3" data-track-number="10" />
+                        <source src="music-cantaclaro/RAFAEL VOLCAN - EL HOMBRE DEL TRIPLE.mp3" data-track-number="11" />
+                        <source src="music-cantaclaro/REYNALDO ARMAS - MAMANDOLE GALLO AL TIEMPO.mp3" data-track-number="12" />
+                        <source src="music-cantaclaro/ROSANGELA BELISARIO - CUANDO TE VI.mp3" data-track-number="13" />
+                        <source src="music-cantaclaro/VITICO CASTILLO - CORAZON DE CONCRETO" data-track-number="14" />
+                        <source src="music-cantaclaro/YENIFER MORA - CAMPESINA HASTA LA CACHA" data-track-number="15" />
+            			Your browser does not support HTML5 audio.
+            		</audio>
+
+            		<div class="player">
+
+                        <button type="button" class="large-toggle-btn">
+                            <i class="large-play-icon"><span class="screen-reader-text">Large toggle button</span></i>
+                        </button><!-- /.play-box --> 
+
+                        <div class="info-box">
+                            <div class="track-info-box">
+                                <div class="track-title-text"></div>
+                                    <div class="audio-time">
+                                        <span class="current-time">00:00</span>/ 
+                                        <span class="duration">00:00</span>
+                                    </div> 
+                            </div><!-- /.info-box -->                           
+
+                            <div class="progress-box">
+                                <div class="progress-cell">
+                                    <div class="progress">
+                                        <div class="progress-buffer"></div>
+                                            <div class="progress-indicator"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- /.progress-box --> 
+
+                        <div class="controls-box">
+                            <button type="button" class="previous-track-btn disabled">
+                                <i class="previous-track-icon"><span class="screen-reader-text">Previous track button</span></i>
+                            </button>
+                            
+                            <button type="button" class="next-track-btn">
+                                <i class="next-track-icon">
+                                    <span class="screen-reader-text">Next track button</span>
+                                </i> 
+                            </button>               
+                        </div> <!-- /.controls-box -->  
+            		</div> <!-- /.player -->
+
+                    <div class="play-list">
+                        <div class="play-list-row" data-track-row="1">
+                            <button type="button" class="small-toggle-btn">
+                                <i class="small-play-icon">
+                                    <span class="screen-reader-text">Small toggle button</span>
+                                </i>                               
+                            </button>
+
+                        <!-- Track Number 1 -->
+                        <div class="track-number">1.</div>
+                        <div class="track-title">
+                            <button type="button" class="playlist-track" data-play-track="1">Alberto Castillo - Lo que yo siento por ti</button>
+                        </div>
+                        </div>
+
+                        <!-- Track Number 2 -->
+                        <div class="track-number">2.</div>
+                        <div class="track-title">
+                            <button type="button" class="playlist-track" data-play-track="2">Alejandro Rondón - Ironía</button>
+                        </div>
+                        </div>
+
+                        <!-- Track Number 3 -->
+                        <div class="play-list-row" data-track-row="3">
+                            <button type="button" class="small-toggle-btn">
+                                <i class="small-play-icon"><span class="screen-reader-text">Small toggle button</span></i>
+                            </button>                            
+                            <div class="track-number">3.</div>
+                            <div class="track-title">
+                                <button type="button" class="playlist-track" data-play-track="3">Ali Cabello - Me enamore</button>
+                            </div>
+                        </div>
+                        
+                        <!-- Track Number 4 -->
+                        <div class="play-list-row" data-track-row="4">
+                            <button type="button" class="small-toggle-btn">
+                                <i class="small-play-icon"><span class="screen-reader-text">Small toggle button</span></i>
+                            </button>
+                            <div class="track-number">4.</div>
+                            <div class="track-title">
+                                <button type="button" class="playlist-track" data-play-track="3">Carlos Guevara - Ojitos negros</button>                                        
+                            </div>
+                        </div>
+
+                        <!-- Track Number 5 -->
+                        <div class="play-list-row" data-track-row="5">
+                            <button type="button" class="small-toggle-btn">
+                                <i class="small-play-icon"><span class="screen-reader-text">Small toggle button</span></i>
+                            </button>
+                            <div class="track-number">5.</div>
+                            <div class="track-title">
+                                <button type="button" class="playlist-track" data-play-track="5">Cristóbal Jiménez - Alcaraván compañero</button>                                        
+                            </div>
+                        </div>
+
+                        <!-- Track Number 6 -->
+                        <div class="play-list-row" data-track-row="6">
+                            <button type="button" class="small-toggle-btn">
+                                <i class="small-play-icon"><span class="screen-reader-text">Small toggle button</span></i>
+                            </button>
+                            <div class="track-number">6.</div>
+                            <div class="track-title">
+                                <button type="button" class="playlist-track" data-play-track="5">Elio Zamora El Deltanito - Te dejare de querer</button>                                        
+                            </div>
+                        </div>
+
+                        <!-- Track Number 7 -->
+                        <div class="play-list-row" data-track-row="7">
+                            <button type="button" class="small-toggle-btn">
+                                <i class="small-play-icon"><span class="screen-reader-text">Small toggle button</span></i>
+                            </button>
+                            <div class="track-number">7.</div>
+                            <div class="track-title">
+                                <button type="button" class="playlist-track" data-play-track="7">Jorge Guerrero - Tardes grises de junio</button>                                        
+                            </div>
+                        </div>
+
+                        <!-- Track Number 8 -->
+                        <div class="play-list-row" data-track-row="8">
+                            <button type="button" class="small-toggle-btn">
+                                <i class="small-play-icon"><span class="screen-reader-text">Small toggle button</span></i>
+                            </button>
+                            <div class="track-number">8.</div>
+                            <div class="track-title">
+                                <button type="button" class="playlist-track" data-play-track="8">Lilibeth Figuera - La llanura y sus encantos</button>                                        
+                            </div>
+                        </div>
+
+                        <!-- Track Number 9 -->
+                        <div class="play-list-row" data-track-row="9">
+                            <button type="button" class="small-toggle-btn">
+                                <i class="small-play-icon"><span class="screen-reader-text">Small toggle button</span></i>
+                            </button>
+                            <div class="track-number">9.</div>
+                            <div class="track-title">
+                                <button type="button" class="playlist-track" data-play-track="9">Miguelito Díaz - La tierra de dónde vengo</button>                                        
+                            </div>
+                        </div>
+
+                        <!-- Track Number 10 -->
+                        <div class="play-list-row" data-track-row="10">
+                            <button type="button" class="small-toggle-btn">
+                                <i class="small-play-icon"><span class="screen-reader-text">Small toggle button</span></i>
+                            </button>
+                            <div class="track-number">10.</div>
+                            <div class="track-title">
+                                <button type="button" class="playlist-track" data-play-track="10">Rafael Volcán - El hombre del triple</button>                                        
+                            </div>
+                        </div>
+
+                        <!-- Track Number 11 -->
+                        <div class="play-list-row" data-track-row="11">
+                            <button type="button" class="small-toggle-btn">
+                                <i class="small-play-icon"><span class="screen-reader-text">Small toggle button</span></i>
+                            </button>
+                            <div class="track-number">11.</div>
+                            <div class="track-title">
+                                <button type="button" class="playlist-track" data-play-track="11">Milena Benites - Si me cumple nos casamos</button>                                        
+                            </div>
+                        </div>
+
+                        <!-- Track Number 12 -->
+                        <div class="play-list-row" data-track-row="12">
+                            <button type="button" class="small-toggle-btn">
+                                <i class="small-play-icon"><span class="screen-reader-text">Small toggle button</span></i>
+                            </button>
+                            <div class="track-number">12.</div>
+                            <div class="track-title">
+                                <button type="button" class="playlist-track" data-play-track="12">Reynaldo Armas - Mamándole gallo al tiempo</button>                                        
+                            </div>
+                        </div>
+
+                        <!-- Track Number 13 -->
+                        <div class="play-list-row" data-track-row="13">
+                            <button type="button" class="small-toggle-btn">
+                                <i class="small-play-icon"><span class="screen-reader-text">Small toggle button</span></i>
+                            </button>
+                            <div class="track-number">13.</div>
+                            <div class="track-title">
+                                <button type="button" class="playlist-track" data-play-track="13">Rosangela Belisario - Cuando te vi</button>                                        
+                            </div>
+                        </div>
+
+                        <!-- Track Number 14 -->
+                        <div class="play-list-row" data-track-row="14">
+                            <button type="button" class="small-toggle-btn">
+                                <i class="small-play-icon"><span class="screen-reader-text">Small toggle button</span></i>
+                            </button>
+                            <div class="track-number">14.</div>
+                            <div class="track-title">
+                                <button type="button" class="playlist-track" data-play-track="14">Vitico Castillo - Corazón de concreto</button>                                        
+                            </div>
+                        </div>
+
+                        <!-- Track Number 15 -->
+                        <div class="play-list-row" data-track-row="15">
+                            <button type="button" class="small-toggle-btn">
+                                <i class="small-play-icon"><span class="screen-reader-text">Small toggle button</span></i>
+                            </button>
+                            <div class="track-number">15.</div>
+                            <div class="track-title">
+                                <button type="button" class="playlist-track" data-play-track="15">Yenifer Mora - Campesina hasta la cacha</button>                                        
+                            </div>
+                        </div>
+
+                    </div> <!-- /.play-list -->
+                </div>  <!-- /.player-container -->
+    	</div> <!-- /.container -->
+    <script src="js/main.js"></script>
+    </body>
+</html>
