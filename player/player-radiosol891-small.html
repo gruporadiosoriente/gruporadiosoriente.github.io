@@ -1,0 +1,85 @@
+﻿<!--
+	Bienvenido a Sensación Radio - Más Radio, Más Música
+	www.sensacionradiofm.com
+	Design by: Jesús Aponte	| @jesusfcoaponte
+-->
+<head>
+	<title>.::Player - Radio Sol 89.1 FM::.</title>
+	<link rel="shortcut icon" type="image/png" href="">
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" href="../css/main.css"/>
+	<link rel="stylesheet" href="../css/fonts-styles.css"/>
+	<link rel="preload" href="js-radiosol891/jquery-3.2.1.min.js" as="script">
+	<link rel="preload" href="js-radiosol891/lunaplayer-full.js" as="script">
+</head>
+
+<div id="lunaradio" style="width:100%; height:100vh; background: #ff8200 url(../images/background-radios.webp) bottom / cover no-repeat;">Cargando...</div>
+	<script src="js-radiosol891/jquery-3.2.1.min.js"></script>
+	<script src="js-radiosol891/lunaplayer-full.js"></script>
+	<!-- <div id="lunaradio" style="width:100%; height:600px;background: #000000 url(https://i.imgur.com/CTQdbqh.jpg) bottom / cover no-repeat;">Cargando ...</div> -->
+
+	<script>
+	jQuery(document).ready(function($) {
+		$("#lunaradio").lunaradio({
+			token: "600lIPN",
+			userinterface: "small",
+			backgroundcolor: "transparent",
+			fontcolor: "#ffffff",
+			hightlightcolor: "#f05542",
+			fontname: "Montserrat",
+			googlefont: "Montserrat",
+			fontratio: "0.4",
+			radioname: "Radio Sol 89.1 FM - Indetenible",
+			scroll: "true",
+			coverimage: "../images/gruporadiosoriente.png",
+			onlycoverimage: "true",
+			coverstyle: "circle",
+			usevisualizer: "fake",
+			visualizertype: "6",
+			multicolorvisualizer: "true",
+			color1: "#e66c35",
+			color2: "#d04345",
+			color3: "#85a752",
+			color4: "#067dcc",
+			visualizeropacity: "0.4",
+			itunestoken: "1000lIPN",
+			metadatatechnic: "",
+			ownmetadataurl: "https://zenoplay.zenomedia.com/api/zenofm/nowplaying/r2errtf2uk8uv",
+			usestreamcorsproxy: "false",
+			corsproxy: "https://cors-anywhere.herokuapp.com/",
+			streamurl: "http://stream.zeno.fm/r2errtf2uk8uv",
+			streamtype: "radiozeno",
+			icecastmountpoint: "/live",
+			shoutcastpath: "/stream",
+			radionomyid: "",
+			radionomyapikey: "",
+			radiozenoid: "r2errtf2uk8uv",
+			radiojarid: "",
+			radiocoid: "",
+			shoutcastid: "1",
+			streamsuffix: "",
+			metadatainterval: "5000",
+			volume: "100",
+			debug: "false",
+			autoplay: "true",
+			displayliveicon: "true",
+			displayvisualizericon: "true",
+		});
+	});
+	</script>
+
+	<script language="JavaScript" type="text/javascript">
+	function click(){
+	if(event.button==2){
+	alert('Radio Sol 89.1 FM - Indetenible');
+	}
+	}
+	document.onmousedown=click
+	//-->
+	</script>
+<!--
+	Gracias por visitar
+	Sensación Radio - Más Radio, Más Música
+	www.sensacionradiofm.com
+	Design by: Jesús Aponte	| @jesusfcoaponte
+-->
