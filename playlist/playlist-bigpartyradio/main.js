@@ -1,16 +1,16 @@
 //Array con el listado de canciones a mostrar en el reprodutor
 const canciones = [
-  ".mp3",
-  ".mp3",
-  ".mp3",
-  ".mp3",
-  ".mp3",
-  ".mp3",
-  ".mp3",
-  ".mp3",
-  ".mp3",
-  ".mp3",
-  ".mp3",
+  "CHINO Y NACHO - CANTINERO.mp3",
+  "J BALVIN FT FRENCH MONTANA, NICKY JAM - AY VAMOS.mp3",
+  "JOWELL Y RANDY - LOCO.mp3",
+  "LUIS FONSI FT DADDY YANKEE - DESPACITO.mp3",
+  "RICKY MARTIN FT MALUMA - VENTE PA' CA.mp3",
+  "TITO EL BAMBINO FT NICKY JAM - ADICTO A TUS REDES.mp3",
+  "MALUMA - FELICES LOS 4.mp3",
+  "KALI UCHIS - TELEPATIA.mp3",
+  "JONATHAN MOLY - BONKE.mp3",
+  "ENRIQUE IGLESIAS FT NICKY JAM - EL PERDON.mp3",
+  "DANNY OCEAN - ME REHUSO.mp3",
   
   ]
   var indiceActual = new Array(1)
