@@ -12,7 +12,7 @@ body {
     text-align: fixed;
     max-width: 360px;
     max-height: 140px;
-    background: linear-gradient(to top, #f1f3f4, #fed000, #fed000); /*#f1f3f4*/
+    background: linear-gradient(to top, #f1f3f4, #f1f3f4); /*#f1f3f4*/
     color: #fed000;
     overflow: hidden;
 }
