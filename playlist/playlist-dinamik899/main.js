@@ -1,16 +1,16 @@
 //Array con el listado de canciones a mostrar en el reprodutor
 const canciones = [
-  ".mp3",
-  ".mp3",
-  ".mp3",
-  ".mp3",
-  ".mp3",
-  ".mp3",
-  ".mp3",
-  ".mp3",
-  ".mp3",
-  ".mp3",
-  ".mp3",
+  "ARTEMAS - I LIKE THE WAY YOU KISS ME.mp3",
+  "COLDPLAY - PARADISE.mp3",
+  "DUA LIPA - HOUDINI.mp3",
+  "JENNIFER LOPEZ FT PITBULL - ON THE FLOOR (RADIO EDIT).mp3",
+  "MILEY CYRUS - FLOWERS.mp3",
+  "YOLANDA BE COOL, DCUP - WE NO SPEAK AMERICANO.mp3",
+  "SHAKIRA - DON'T WAIT UP.mp3",
+  "MAJOR LAZER FT MØ, DJ SNAKE - LEAN ON.mp3",
+  "GALANTIS - RUNAWAY (U & I).mp3",
+  "CYRIL - STUMBLIN' IN.mp3",
+  "BLACK EYED PEAS FT BECKY G - TONIGHT.mp3",
   
   ]
   var indiceActual = new Array(1)
