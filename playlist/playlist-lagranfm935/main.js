@@ -1,16 +1,16 @@
 //Array con el listado de canciones a mostrar en el reprodutor
 const canciones = [
-  ".mp3",
-  ".mp3",
-  ".mp3",
-  ".mp3",
-  ".mp3",
-  ".mp3",
-  ".mp3",
-  ".mp3",
-  ".mp3",
-  ".mp3",
-  ".mp3",
+  "ANGEL Y KHRIZ - AYER LA VI.mp3",
+  "ELVIS CRESPO - PINTAME.mp3",
+  "HENRY MENDEZ - EL TIBURON.mp3",
+  "OLGA TAÑON - LA GRAN FIESTA (VERSION SALSA).mp3",
+  "OSCAR D'LEON - LLORARAS.mp3",
+  "VICTOR MUÑOZ - CALLE LUNA CALLE SOL.mp3",
+  "ROMEO SANTOS FT ROSALIA - EL PAÑUELO.mp3",
+  "OLGA TAÑON FT MICKEY PERFECTO - CUANDO TU NO ESTAS.mp3",
+  "JUAN LUIS GUERRA 4.40 - LA BILIRRUBINA.mp3",
+  "FREE COVER VENEZUELA - SERGIO VARGAS.mp3",
+  "BACILOS - CARALUNA.mp3",
   
   ]
   var indiceActual = new Array(1)
