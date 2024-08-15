@@ -1,0 +1,32 @@
+/* Global Reset */
+* {
+    font-family: 'Allerta', arial, Tahoma;
+    box-sizing: border-box;
+}
+body {
+    text-align:center;
+    color:#fff;
+}
+
+.container-img {
+    text-align: fixed;
+    max-width: 360px;
+    max-height: 140px;
+    background: linear-gradient(to top, #f1f3f4, #fed000, #fed000); /*#f1f3f4*/
+    color: #fed000;
+    overflow: hidden;
+}
+
+
+
+.container-audio {
+    text-align:center;
+    width: 360px;
+    height: auto;
+    background: linear-gradient(to top, #f1f3f4, #f1f3f4); /*#f1f3f4*/
+    color: #fed000;
+    overflow: hidden;
+}
+audio {
+  width:100%;
+}
